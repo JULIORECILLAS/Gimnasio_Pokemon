@@ -1,0 +1,30 @@
+:root {
+    --primary: #30A2FF;
+    --secondary: #FFF5B8;
+    --info: #FFE7A0;
+    --contrast: #00C4FF;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--primary);
+}
+
+div {
+    padding: 10px 0px 10px 0px;
+    background-color: var(--contrast);
+
+    color: var(--info);
+    border: 0px solid var(--contrast);
+    border-color: var(--contrast);
+}
+
+#Cascada{
+    padding: 10px 0px 10px 0px;
+    background-color: var(--primary);
+
+    color: var(--info);
+    border: 0px solid var(--primary);
+    border-color: var(--contrast);
+}

@@ -1,0 +1,30 @@
+:root {
+    --primary: #00ABB3;
+    --secondary: #3C4048 ;
+    --info: #B2B2B2;
+    --contrast: #EAEAEA;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--primary);
+}
+
+div {
+    padding: 10px 0px 10px 0px;
+    background-color: var(--secondary);
+    color: var(--info);
+    border: 0px solid var(--contrast);
+    border-color: var(--contrast);
+}
+
+#menu{
+    padding: 10px 0px 10px 0px;
+    background-color: var(--primary);
+    text-align: center;
+
+    color: var(--secondary);
+    border: 0px solid var(--secondary);
+    border-color: var(--contrast);
+}

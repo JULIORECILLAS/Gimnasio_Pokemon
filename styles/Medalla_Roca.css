@@ -1,0 +1,30 @@
+:root {
+    --primary: #884A39;
+    --secondary: #C38154 ;
+    --info: #FFC26F;
+    --contrast: #F9E0BB;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--primary);
+}
+
+div {
+    padding: 10px 0px 10px 0px;
+    background-color: var(--contrast);
+
+    color: var(--info);
+    border: 0px solid var(--contrast);
+    border-color: var(--contrast);
+}
+
+#Roca{
+    padding: 10px 0px 10px 0px;
+    background-color: var(--primary);
+
+    color: var(--info);
+    border: 0px solid var(--primary);
+    border-color: var(--contrast);
+}

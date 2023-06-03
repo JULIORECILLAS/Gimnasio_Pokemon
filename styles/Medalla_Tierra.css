@@ -1,0 +1,36 @@
+:root {
+    --primary: #643843;
+    --secondary: #99627A;
+    --info: #C88EA7;
+    --contrast: #E7CBCB;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--primary);
+}
+
+div {
+    padding: 10px 0px 10px 0px;
+    background-color: var(--secondary);
+    color: var(--info);
+    border: 0px solid var(--contrast);
+    border-color: var(--contrast);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+
+#Tierra{
+    padding: 10px 0px 10px 0px;
+    background-color: var(--primary);
+    text-align: center;
+
+    color: var(--contrast);
+    border: 0px solid var(--contrast);
+    border-color: var(--contrast);
+}

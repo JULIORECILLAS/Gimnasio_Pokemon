@@ -1,0 +1,30 @@
+:root {
+    --primary: #0079FF;
+    --secondary: #00DFA2 ;
+    --info: #F6FA70;
+    --contrast: #FF0060;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: var(--primary);
+}
+
+div {
+    padding: 10px 0px 10px 0px;
+    background-color: var(--contrast);
+
+    color: var(--info);
+    border: 0px solid var(--contrast);
+    border-color: var(--contrast);
+}
+
+#Arcoiris{
+    padding: 10px 0px 10px 0px;
+    background-color: var(--primary);
+
+    color: var(--info);
+    border: 0px solid var(--primary);
+    border-color: var(--contrast);
+}
